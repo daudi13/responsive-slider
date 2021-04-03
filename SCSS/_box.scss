@@ -1,0 +1,18 @@
+.box {
+    width: 350px;
+    height: 610px;
+    background: $box-clr;
+    box-shadow: $bs;
+    
+    .details {
+        margin: 10px 20px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        &__title {
+            font-family: ;
+        }
+    }
+}
