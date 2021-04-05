@@ -60,6 +60,10 @@ body .container {
 }
 
 .box .details__title {
-  font-family: marve;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-weight: bold;
+  color: #6a6a74;
+  text-align: center;
+  margin-top: 0px;
 }
 /*# sourceMappingURL=main.css.map */
