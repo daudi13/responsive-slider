@@ -29,5 +29,11 @@
         &__logo #logo {
             height: 4rem;
         }
+
+        &__desc {
+            text-align: center;
+            font-family: 'Roboto', sans-serif;
+            color: $title;
+        }
     }
 }
