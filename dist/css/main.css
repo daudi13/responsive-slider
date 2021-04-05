@@ -40,6 +40,7 @@ body .container {
   background: #1e1e26;
   -webkit-box-shadow: 2px 10px 12px rgba(0, 0, 0, 0.5);
           box-shadow: 2px 10px 12px rgba(0, 0, 0, 0.5);
+  border-radius: 10px;
 }
 
 .box .details {
@@ -60,10 +61,19 @@ body .container {
 }
 
 .box .details__title {
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-family: 'Libre Baskerville', serif;
   font-weight: bold;
   color: #6a6a74;
   text-align: center;
   margin-top: 0px;
+}
+
+.box .details__image {
+  height: 400px;
+  padding: 1.5rem;
+}
+
+.box .details__logo #logo {
+  height: 4rem;
 }
 /*# sourceMappingURL=main.css.map */
