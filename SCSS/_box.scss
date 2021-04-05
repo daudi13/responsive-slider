@@ -23,17 +23,18 @@
 
         &__image {
             height: 400px;
-            padding: 1.5rem;
+            padding: 1.5rem 1.5rem 0;
         }
 
         &__logo #logo {
-            height: 4rem;
+            height: 3rem;
         }
 
         &__desc {
             text-align: center;
-            font-family: 'Roboto', sans-serif;
+            font-family: 'New Tegomin', serif;
             color: $title;
+            font-size: 14px;
         }
     }
 }

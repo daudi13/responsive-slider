@@ -70,16 +70,17 @@ body .container {
 
 .box .details__image {
   height: 400px;
-  padding: 1.5rem;
+  padding: 1.5rem 1.5rem 0;
 }
 
 .box .details__logo #logo {
-  height: 4rem;
+  height: 3rem;
 }
 
 .box .details__desc {
   text-align: center;
-  font-family: 'Roboto', sans-serif;
+  font-family: 'New Tegomin', serif;
   color: #6a6a74;
+  font-size: 14px;
 }
 /*# sourceMappingURL=main.css.map */
