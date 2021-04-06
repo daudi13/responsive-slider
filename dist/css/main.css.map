@@ -5,7 +5,8 @@
         "../../SCSS/main.scss",
         "../../SCSS/_variables.scss",
         "../../SCSS/_base.scss",
-        "../../SCSS/_box.scss"
+        "../../SCSS/_box.scss",
+        "../../SCSS/_mixin.scss"
     ],
     "names": [],
     "file": "main.css"

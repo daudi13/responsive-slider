@@ -51,5 +51,9 @@
         transform: scale(1.02);
         transition: all ease 0.35s;
     }
+
+    @include responsive (mobile) {
+        
+    }
     
 }
