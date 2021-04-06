@@ -4,6 +4,7 @@
     background: $box-clr;
     box-shadow: $bs;
     border-radius: 10px;
+
     
     .details {
         margin: 10px 20px;
@@ -37,4 +38,12 @@
             font-size: 14px;
         }
     }
+
+    &:hover {
+        background: $box-opacity;
+        transform-style: preserve-3d;
+        transform: scale(1.02);
+        transition: all ease 0.35s;
+    }
+    
 }

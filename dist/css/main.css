@@ -83,4 +83,14 @@ body .container {
   color: #6a6a74;
   font-size: 14px;
 }
+
+.box:hover {
+  background: #17171d;
+  -webkit-transform-style: preserve-3d;
+          transform-style: preserve-3d;
+  -webkit-transform: scale(1.02);
+          transform: scale(1.02);
+  -webkit-transition: all ease 0.35s;
+  transition: all ease 0.35s;
+}
 /*# sourceMappingURL=main.css.map */
