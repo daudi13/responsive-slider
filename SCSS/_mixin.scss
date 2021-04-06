@@ -1,0 +1,9 @@
+$resposive:(
+    "mobile": 720px
+);
+
+@mixin responsive ($size) {
+    @media (min-width: map-get($responsive, $size:)){
+        @content
+    }
+}
