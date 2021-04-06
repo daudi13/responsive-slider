@@ -41,6 +41,7 @@ body .container {
   -webkit-box-shadow: 2px 10px 12px rgba(0, 0, 0, 0.5);
           box-shadow: 2px 10px 12px rgba(0, 0, 0, 0.5);
   border-radius: 10px;
+  margin-bottom: 20px;
 }
 
 .box .details {
@@ -65,11 +66,17 @@ body .container {
   font-weight: bold;
   color: #6a6a74;
   text-align: center;
-  margin-top: 0px;
+  margin-top: 1.5rem;
+}
+
+.box .details__title:hover {
+  color: #a4152c;
+  -webkit-transition: all ease 0.35s;
+  transition: all ease 0.35s;
 }
 
 .box .details__image {
-  height: 400px;
+  height: 350px;
   padding: 1.5rem 1.5rem 0;
 }
 
