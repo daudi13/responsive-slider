@@ -32,6 +32,10 @@
                 color: $marvel-red;
                 transition: all ease 0.35s;
             }
+
+            @include breakpoint-up (mobile) {
+                font-size: 18px;
+            }
         }
 
         &__image {
