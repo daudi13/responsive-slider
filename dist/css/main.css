@@ -32,6 +32,7 @@ body .container {
       -ms-flex-pack: center;
           justify-content: center;
   background-color: #a4152c;
+  overflow-y: hidden;
 }
 
 .box {
