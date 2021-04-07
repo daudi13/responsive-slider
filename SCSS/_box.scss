@@ -52,8 +52,8 @@
         transition: all ease 0.35s;
     }
 
-    @include responsive (mobile) {
-        
+    @include breakpoint-up(mobile) {
+        margin: 0 auto;
     }
     
 }

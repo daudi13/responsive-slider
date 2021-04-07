@@ -1,0 +1,11 @@
+$breakpoints-up: (
+    "mobile": 25.6875rem,
+    "medium": 48rem,
+    "desktop": 64rem
+);
+
+@mixin breakpoint-up ($size) {
+    @media (max-width: map-get($breakpoints-up, $size)) {
+    @content;
+    }
+}
